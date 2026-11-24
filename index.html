@@ -1,6 +1,11 @@
 <!doctype html>
-<title>Forrevio Coming Soon</title>
-<meta name="claude:viewport-fit-sides" content="cover">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<meta name="description" content="Forrevio: revenue infrastructure for B2B SaaS. Coming soon.">
+<title>Forrevio: Coming soon</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500;600;700&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
 <style>
@@ -81,7 +86,10 @@ footer{margin-top:auto;padding-top:40px;font:500 12px "Geist Mono",monospace;col
 .seal i{width:8px;height:8px;border-radius:50%;background:#5CBF8F;animation:bl 1.6s infinite}
 .scr .home{position:absolute;bottom:6px;left:50%;width:84px;height:4px;margin-left:-42px;border-radius:9px;background:#111;opacity:.8}
 @media(prefers-reduced-motion:reduce){.pb i{height:var(--h)}.phw::before{animation:none}}
+html{background:#000;-webkit-text-size-adjust:100%}main{padding-top:max(clamp(32px,7vh,72px),env(safe-area-inset-top,0px));padding-bottom:max(clamp(32px,7vh,72px),env(safe-area-inset-bottom,0px))}
 </style>
+</head>
+<body>
 <canvas id="f" aria-hidden="true"></canvas><i class="orb o1"></i><i class="orb o2"></i>
 <main>
  <div class="mk"><svg viewBox="0 0 683 664" aria-label="Forrevio"><path fill-rule="evenodd" d="M65.8 657.9C42.3 655.4 21.4 641.7 11.7 622.5C6.9 613.0 5.7 606.7 6.2 594.6C7.1 574.3 11.6 566.3 37.4 540.0C57.8 519.2 62.3 512.9 82.5 478.0C102.8 442.8 114.7 424.5 130.1 404.7C184.1 335.4 265.7 287.0 338.6 280.9C388.7 276.8 430.3 296.7 449.4 334.0C456.9 348.5 459.9 360.1 464.5 391.5C468.9 421.3 474.7 440.4 484.7 457.5C487.2 461.9 491.3 468.8 493.6 472.9C499.2 482.5 500.7 489.1 499.1 496.4C494.6 516.3 469.3 521.7 454.0 505.9C448.7 500.4 444.4 492.6 438.1 476.6C420.4 432.4 401.3 410.1 373.0 400.5C328.6 385.4 272.2 415.3 236.7 472.8C228.2 486.6 221.0 500.7 209.0 527.0C185.3 579.1 174.7 597.6 156.7 618.1C131.8 646.6 98.2 661.3 65.8 657.9ZM553.0 486.6C528.5 481.1 509.2 466.2 498.5 444.5C492.1 431.5 489.8 422.0 489.8 408.0C489.8 385.0 498.1 365.5 515.3 348.2C528.0 335.3 542.8 327.1 560.8 322.9C573.0 320.1 592.7 320.6 603.5 324.0C630.9 332.7 651.9 355.3 657.4 382.2C668.3 435.3 623.1 488.5 567.7 487.9C562.6 487.8 556.0 487.2 553.0 486.6ZM103.3 344.5C91.0 341.2 78.7 332.7 71.6 322.6C65.9 314.6 63.4 309.4 60.2 299.6C58.0 292.6 57.7 289.7 57.6 277.5C57.6 269.5 58.2 260.9 58.9 257.5C72.2 196.4 125.6 136.8 208.5 90.4C293.8 42.7 404.2 13.1 519.5 7.0C588.7 3.4 624.7 10.2 651.0 32.1C677.3 53.9 684.8 89.6 669.6 119.9C652.5 153.7 614.1 173.9 549.9 182.9C541.9 184.0 520.3 186.3 501.9 188.0C463.2 191.5 454.7 192.4 435.1 195.1C351.9 206.2 294.1 226.7 241.5 263.5C227.4 273.4 215.4 283.0 195.5 300.5C173.4 319.8 168.5 324.0 161.1 329.4C153.1 335.2 138.4 342.5 130.5 344.5C123.2 346.4 110.2 346.3 103.3 344.5Z"/></svg></div>
@@ -103,3 +111,5 @@ function s(){const r=Math.min(1.5,devicePixelRatio||1);W=innerWidth;H=innerHeigh
 s();addEventListener('resize',s);addEventListener('pointermove',e=>{px=e.clientX;py=e.clientY},{passive:true});
 (function f(){x.clearRect(0,0,W,H);for(const p of d){p.y-=p.v;const dx=p.x-px,dy=p.y-py,q=dx*dx+dy*dy;if(q<14400){const m=Math.sqrt(q)||1,k=(1-m/120)*2;p.x+=dx/m*k;p.y+=dy/m*k}if(p.y<-4){p.y=H+4;p.x=Math.random()*W}x.globalAlpha=p.a;x.fillStyle=p.b?'#4A8BFF':'#F2EDE3';x.fillRect(p.x,p.y,p.r,p.r)}requestAnimationFrame(f)})()})();
 </script>
+</body>
+</html>
